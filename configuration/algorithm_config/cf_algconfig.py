@@ -1,0 +1,8 @@
+NTOP = 200
+RECOMMEND_MEMORY_SIZE = 50000
+WRITE_MEMORY_SIZE = 100000
+
+GRAPH_FEATURE = 'count'
+
+DATE_LEVEL_HYBRID = 0.3
+REDUCE_CYCLE = 0.5 # when reduce_cycle = 0.0: not use day info

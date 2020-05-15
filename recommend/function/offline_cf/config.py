@@ -1,0 +1,2 @@
+NTOP_REC = 200
+NTOP_EVA = 20
