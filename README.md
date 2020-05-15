@@ -4,7 +4,7 @@ Implementation of my publish [Adaptive Collaborative Filtering for Recommender S
 
 ## 1. AWC and matrix computing
 
-Although this is graph-based model, AWC can be represented as matrix multiplication. Checkout the folder [awc_matrix_computing](/awc_matrix_computing).
+The recommending formula of ACF is AWC (Adaptive Weighted Conduction). Although this is graph-based model, AWC can be represented as matrix multiplication. Checkout the folder [awc_matrix_computing](/awc_matrix_computing).
 
 Prequitesite: numpy, pandas
 
