@@ -7,7 +7,7 @@ class AWC_REC(IndexItems):
 		IndexItems.__init__(self, log_parser.get_itemids())
 		self.log_parser = log_parser
 		self.HisMatrix = log_parser.get_hismatrix()
-		self.k_item = np.array(log_parser.get_itemcnt()).reshape((-1))
+		self.k_item = np.array(log_parser.get_itemcnt()+1).reshape((-1))
 		self.gamma, self.lam = parameters['gamma'], parameters['lambda']
 		self.ItemMatrix, self.RecMatrix = None, None
 
