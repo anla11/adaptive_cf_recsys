@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 from lib.utiles.numpyprocess_lib import filteridx_matrix
 
 class IndexItems():
