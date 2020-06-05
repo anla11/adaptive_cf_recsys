@@ -9,6 +9,8 @@ The recommending formula of ACF is AWC (Adaptive Weighted Conduction). It balanc
 
 Prequitesite: numpy, pandas
 
+Folders: [awc_matrix_computing](/awc_matrix_computing), [lib/utils](/lib/utils)
+
 ## 2. Large-scale recommending
 
 The rest of the projects are belong to large-scale recommending. History of users are represented as graph. The item-item matrix is calculated on graph, then recommending occurs in containers, each of them includes a pre-determined number of users.  
