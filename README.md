@@ -1,6 +1,6 @@
 # Adaptive Collaborative Filtering for Recommender Systems
 
-Implementation of my publish [Adaptive Collaborative Filtering for Recommender Systems](https://doi.org/10.1007/978-3-030-23182-8_9)
+Implementation of my publish [Adaptive Collaborative Filtering for Recommender Systems](https://doi.org/10.1007/978-3-030-23182-8_9), a graph-based recommending model for large scale systems and dealing with multiple evaluation metrics.
 
 ## 1. AWC and matrix computing
 
