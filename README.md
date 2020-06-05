@@ -21,7 +21,7 @@ The rest of the projects are belong to large-scale recommending. History of user
 
 ![visualize/metric_relationship.png](visualize/metric_relationship.png)
 
-## Sample dataset
+## 3. Sample dataset
  - [https://www.kaggle.com/carrie1/ecommerce-data](https://www.kaggle.com/carrie1/ecommerce-data)
  - [MovieLen 100k](https://grouplens.org/datasets/movielens/100k/)
 
