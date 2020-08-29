@@ -7,6 +7,12 @@ import numpy as np
 import gc
 from lib.utils.numpyprocess_lib import binary_vector, binary_vector_fromlist, create_vector, stack_df, filteridx_matrix
 
+def create_mapping(list1, list2):
+	return dict(zip(list1, list2))
+
+def convert_mapping(mapping, encode_list):
+	return list(map(lambda x: mapping[x], encode_list))  
+
 def create_mapping_id2num(item_list):
 	return dict(zip(item_list, range(len(item_list))))
 
