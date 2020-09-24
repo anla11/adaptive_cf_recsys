@@ -12,17 +12,26 @@ Requirement: numpy, pandas
 
 Folders: [awc_matrix_computing](/awc_matrix_computing), [lib/utils](/lib/utils)
 
-## 2. Large-scale recommending
+## 2. Visualize relationship between metrics
+
+Tuning parameters of AWC reveals and adapts to characteristics of each dataset. 
++ Users focus more on trending items (common preferences) or unpopular items (specific preferences). The type of preferences is indicated by popularity.
++ Selecting the appropriate strategy (recommending trending or speicific items) leads to high precision and balacing diversity, coverge, congestion.
+
+
+![visualize/metric_relationship.png](visualize/metric_relationship.png)
+
+Visualization of relationship between metrics is implemented in [visualize](/visualize).
+
+
+## 3. Large-scale recommending
 
 The rest of the projects are large-scale recommending. History of users are represented as graph. The item-item matrix is calculated on graph, then recommending occurs in containers, each of them includes a pre-determined number of users.  
 
 + Requirement: numpy, pandas and C++ for graph.
 + To start running the code, check out [bash](/bash), where demo and recommending for MovieLen with multiple parameters are provided. These example includes automatically evaluating the result of recommending by 5 metrics: precicion, popularity, diversity, coverage and congestion.
-+ Visualization of relationship between metric is implemented in [visualize](/visualize)
 
-![visualize/metric_relationship.png](visualize/metric_relationship.png)
-
-## 3. Sample dataset
+## 4. Sample dataset
  - [https://www.kaggle.com/carrie1/ecommerce-data](https://www.kaggle.com/carrie1/ecommerce-data)
  - [MovieLen 100k](https://grouplens.org/datasets/movielens/100k/)
 
