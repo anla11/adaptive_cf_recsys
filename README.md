@@ -48,16 +48,15 @@ Folders: [awc_matrix_computing](/awc_matrix_computing), [lib/utils](/lib/utils)
 
 ### 2.2. Visualize relationship between metrics
 
+Visualization of relationship between metrics is implemented in [visualize](/visualize).
+
 Tuning parameters of AWC reveals and adapts to characteristics of each dataset. 
 + Users focus more on trending items (common preferences) or unpopular items (specific preferences). The type of preferences is indicated by popularity.
 + Selecting the appropriate strategy (recommending trending or speicific items) leads to high precision and balacing diversity, coverge, congestion.
 
-
 ![visualize/metric_relationship.png](visualize/metric_relationship.png)
 
 Visualize relationship between evaluation metrics while running AWC on [MovieLen 100k](https://grouplens.org/datasets/movielens/100k/)
-
-Visualization of relationship between metrics is implemented in [visualize](/visualize).
 
 
 ### 2.3. Large-scale recommending
