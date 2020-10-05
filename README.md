@@ -1,8 +1,8 @@
 # Adaptive Collaborative Filtering for Recommender Systems (ACF)
 
-Implementation of my publish [Adaptive Collaborative Filtering for Recommender Systems](https://doi.org/10.1007/978-3-030-23182-8_9), a graph-based model for large scale recommendation systems with the ability to automatically balance multiple evaluation metrics.
+Implementation of my paper [Adaptive Collaborative Filtering for Recommender Systems](https://doi.org/10.1007/978-3-030-23182-8_9), a graph-based model for large scale recommendation systems with the ability to automatically balance multiple evaluation metrics.
 
-La A., Vo P., Vu T. (2019) Adaptive Collaborative Filtering for Recommender System. In: Endres D., Alam M., Şotropa D. (eds) Graph-Based Representation and Reasoning. ICCS 2019. Lecture Notes in Computer Science, vol 11530. Springer, Cham. https://doi.org/10.1007/978-3-030-23182-8_9
+ La A., Vo P., Vu T. (2019) Adaptive Collaborative Filtering for Recommender System. In: Endres D., Alam M., Şotropa D. (eds) Graph-Based Representation and Reasoning. ICCS 2019. Lecture Notes in Computer Science, vol 11530. Springer, Cham. https://doi.org/10.1007/978-3-030-23182-8_9
 
 ## 1. Matrix computing for AWC formula
 
