@@ -53,7 +53,9 @@ Tuning parameters of AWC reveals and adapts to characteristics of each dataset.
 + Selecting the appropriate strategy (recommending trending or speicific items) leads to high precision and balacing diversity, coverge, congestion.
 
 
-![visualize/metric_relationship.png](visualize/metric_relationship.png) Visualize relationship between evaluation metrics while running AWC on [MovieLen 100k](https://grouplens.org/datasets/movielens/100k/)
+![visualize/metric_relationship.png](visualize/metric_relationship.png)
+
+Visualize relationship between evaluation metrics while running AWC on [MovieLen 100k](https://grouplens.org/datasets/movielens/100k/)
 
 Visualization of relationship between metrics is implemented in [visualize](/visualize).
 
