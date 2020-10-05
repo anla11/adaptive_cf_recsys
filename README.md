@@ -31,7 +31,7 @@ Recommending items given an item or list of historical items of a user.
         
 ### Parameters
 
-  Gamma and lambda is two tunable parameters of the model. In negative side, the model exploits more on the differences between users, while positive values allows the model focuses more on common interests between users. Lambda is in range [0.0, 1.0]. Higher value gives more trending results.
+  Gamma and lambda is two tunable parameters of the model. In negative side, the model exploits more on the differences between users, while positive values allow the model focuses more on common interests between users. Lambda is in range [0.0, 1.0], higher value gives more trending results.
  
  Keep tracks on evaluation metrics (popularity, diversity, coverage, congestion) of results while tuning parameters, the model reveals the relationship between metrics on dataset. The point which has highest precision on training set also has balancing values on other metrics.
   
