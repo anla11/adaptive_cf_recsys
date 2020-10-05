@@ -4,13 +4,13 @@
 
 This is implementation of my paper [Adaptive Collaborative Filtering for Recommender Systems](https://doi.org/10.1007/978-3-030-23182-8_9), a graph-based model for large scale recommendation systems with the ability to automatically balance multiple evaluation metrics.
 
-La A., Vo P., Vu T. (2019) Adaptive Collaborative Filtering for Recommender System. In: Endres D., Alam M., Şotropa D. (eds) Graph-Based Representation and Reasoning. ICCS 2019. Lecture Notes in Computer Science, vol 11530. Springer, Cham. https://doi.org/10.1007/978-3-030-23182-8_9
+    La A., Vo P., Vu T. (2019) Adaptive Collaborative Filtering for Recommender System. In: Endres D., Alam M., Şotropa D. (eds) Graph-Based Representation and Reasoning. ICCS 2019. Lecture Notes in Computer Science, vol 11530. Springer, Cham. https://doi.org/10.1007/978-3-030-23182-8_9
 
 Recommending items given an item or list of historical items of a user.
 
 ![demo.png](/images/demo.png) Examples on [the ecommerce dataset](https://www.kaggle.com/carrie1/ecommerce-data)
 
-### How to use:
+### How to use
 
   - Read data and save into a pandas dataframe
   - Create a log parser object with passing column names of user key and item key
