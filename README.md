@@ -23,7 +23,7 @@ Recommending items given an item or list of historical items of a user.
       
   - Using log_parser to get ids of users and items 
    
-        item_his = log_parser.get_itemids()
+        item_his = log_parser.get_itemids(0) #get ids of item with StockCode = 0
         
   - Recommend for an item or a user
   
