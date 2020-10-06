@@ -50,11 +50,9 @@ Recommending items given an item or list of historical items of a user.
 
 ### 2.1 Matrix computing for AWC formula
 
-The recommending formula of ACF is AWC (Adaptive Weighted Conduction). It balances multiple evaluation metrics at the same time. AWC can be represented as matrix multiplication. Checkout the folder [awc_matrix_computing](/awc_matrix_computing).
-
 Requirement: numpy, pandas
 
-Folders: [awc_matrix_computing](/awc_matrix_computing), [lib/utils](/lib/utils)
+The recommending formula of ACF is AWC (Adaptive Weighted Conduction). It balances multiple evaluation metrics at the same time. AWC can be represented as matrix multiplication. Checkout the folder [awc_matrix_computing](/awc_matrix_computing), [lib/utils](/lib/utils).
 
 ### 2.2. Visualize relationship between metrics
 
