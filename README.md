@@ -15,19 +15,29 @@ Recommending items given an item or list of historical items of a user.
   - Read data and save into a pandas dataframe
   - Create a log parser object with passing column names of user key and item key
   
-        log_parser = LOG_PARSER(log_df, user_key='CustomerID', item_key='StockCode')
+     ```python
+      log_parser = LOG_PARSER(log_df, user_key='CustomerID', item_key='StockCode')
+     ```
   
   - Create an AWC_REC object by passing log parser and setting of parameters
   
-        awc = AWC_REC(log_parser, parameters={'gamma':0.5, 'lambda':0.7})
+     ```python
+     awc = AWC_REC(log_parser, parameters={'gamma':0.5, 'lambda':0.7})
+     ```
       
   - Using log_parser to get ids of users and items 
    
-        item_his = log_parser.get_itemids(0) #get ids of item with StockCode = 0
+     ```python
+     item_his = log_parser.get_itemids(0) #get ids of item with StockCode = 0
+     ```
         
   - Recommend for an item or a user
   
-        rec_df = awc.recommend(item_his)
+     ```python
+     rec_df = awc.recommend(item_his)
+     ```
+     
+   Beside that, there are functions: ```awc.recommend_byusers```, ```awc.get_itemitem_matrix```, ```awc.get_useritem_matrix```. Checkout [awc_matrix_computing/main.py](/awc_matrix_computing/main.py). 
         
 ### Parameters
 
