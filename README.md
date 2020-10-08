@@ -12,7 +12,7 @@ This is implementation of my paper [Adaptive Collaborative Filtering for Recomme
 2. Personalization: recommending items given ID of a user
 3. Other
     - Trending recommendation: training models with lambda (a parameter, detail below) close to 1.0 first, then use 1. Recommending similar items or 2. Personalization
-    - After training, reporting 4 characteristics of dataset via 4 evaluation metrics: popularity, diversity, coverage, congestion. Note that the model automatically balances all metrics.
+    - After training, reporting 4 characteristics of dataset via 4 evaluation metrics: popularity, diversity, coverage, congestion. Note that the model automatically balances all metrics, thus this report could show insights of relationship between them.
     - Getting user-item or item-item matrix for futher analysis on graph of data.
 
 ![demo.png](/images/demo.png) Examples of recommending items given an item or list of historical items of a user on [the ecommerce dataset](https://www.kaggle.com/carrie1/ecommerce-data)
@@ -55,7 +55,7 @@ This is implementation of my paper [Adaptive Collaborative Filtering for Recomme
 
 ## 2. Details
 
-### 2.1 Matrix computing for AWC formula
+### 2.1 Matrix computing for AWC formula for recommending similar items and personalization
 
 Requirement: numpy, pandas
 
