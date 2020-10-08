@@ -11,7 +11,7 @@ This is implementation of my paper [Adaptive Collaborative Filtering for Recomme
 1. Recommending similar items: recommending items given 1 or list of items
 2. Personalization: recommending items given ID of a user
 3. Other
-    - Trending recommendation: training models with lambda close to 1.0 first, then use 1. or 2.
+    - Trending recommendation: training models with lambda (a parameter, detail below) close to 1.0 first, then use 1. or 2.
     - After training, reporting 4 characteristics of dataset via 4 evaluation metrics: popularity, diversity, coverage, congestion. Note that the model automatically balances all metrics.
     - Getting user-item or item-item matrix for futher analysis on graph of data.
 
