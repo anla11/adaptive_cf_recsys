@@ -6,9 +6,16 @@ This is implementation of my paper [Adaptive Collaborative Filtering for Recomme
 
     La A., Vo P., Vu T. (2019) Adaptive Collaborative Filtering for Recommender System. In: Endres D., Alam M., Şotropa D. (eds) Graph-Based Representation and Reasoning. ICCS 2019. Lecture Notes in Computer Science, vol 11530. Springer, Cham. https://doi.org/10.1007/978-3-030-23182-8_9
 
-Recommending items given an item or list of historical items of a user.
+### Functions
 
-![demo.png](/images/demo.png) Examples on [the ecommerce dataset](https://www.kaggle.com/carrie1/ecommerce-data)
+1. Recommending similar items: recommending items given 1 or list of items
+2. Personalization: recommending items given ID of a user
+3. Other
+    - Trending recommendation: training models with lambda close to 1.0 first, then use 1. or 2.
+    - After training, reporting 4 characteristics of dataset via 4 evaluation metrics: popularity, diversity, coverage, congestion. Note that the model automatically balances all metrics.
+    - Getting user-item or item-item matrix for futher analysis on graph of data.
+
+![demo.png](/images/demo.png) Examples of recommending items given an item or list of historical items of a user on [the ecommerce dataset](https://www.kaggle.com/carrie1/ecommerce-data)
 
 ### How to use
 
@@ -38,13 +45,13 @@ Recommending items given an item or list of historical items of a user.
      ```
      
    Beside that, there are functions: ```awc.recommend_byusers```, ```awc.get_itemitem_matrix```, ```awc.get_useritem_matrix```. Checkout [awc_matrix_computing/main.py](/awc_matrix_computing/main.py). 
-        
+   
+      
 ### Parameters
 
   Gamma and lambda is two tunable parameters of the model. In negative side, the model exploits more on the differences between users, while positive values allow the model focuses more on common interests between users. Lambda is in range [0.0, 1.0], higher value gives more trending results.
  
  Keep tracks on evaluation metrics (popularity, diversity, coverage, congestion) of results while tuning parameters, the model reveals the relationship between metrics on dataset. The point which has highest precision on training set also has balancing values on other metrics.
-  
 
 ## 2. Details
 
